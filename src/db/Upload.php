@@ -6,8 +6,8 @@ if(ISSET($_POST['upload'])){
 
     $file_name = $file['name'];
     $file_temp = $file['tmp_name'];
- //   $file_type = $file['type'];
-  //  $file_size = $file['size'];
+    $file_type = $file['type'];
+    $file_size = $file['size'];
     $exp = explode('.', $file_name);
     $name = $exp[0];
     $path = "upload/".$file_name;
