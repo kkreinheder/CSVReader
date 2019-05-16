@@ -1,0 +1,21 @@
+{
+    "name": "kyle/csv-reader",
+    "description": "This program will import to an SQL database",
+    "type": "project",
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Kyle Kreinheder",
+            "email": "kk566@njit.edu"
+        }
+    ],
+    "require": {}
+}
